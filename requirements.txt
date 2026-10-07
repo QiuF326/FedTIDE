@@ -1,0 +1,36 @@
+# --- 基础环境 ---
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.2.3
+matplotlib==3.9.2
+tqdm==4.66.4
+
+# --- 深度学习核心 ---
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+torchaudio==2.1.0+cu118
+triton==2.1.0
+
+# --- 机器学习与评估 ---
+scikit-learn==1.7.2
+sympy==1.12
+joblib==1.5.2
+threadpoolctl==3.6.0
+
+# --- 辅助工具 ---
+termcolor==3.2.0
+protobuf==6.32.1
+tensorboard==2.20.0
+wandb==0.22.3
+
+# --- 网络请求/通信 ---
+requests==2.32.5
+urllib3==2.2.3
+
+# --- 兼容类型与运行支持 ---
+typing_extensions==4.15.0
+pydantic==2.12.4
+pydantic_core==2.41.5
+packaging==24.1
+click==8.3.0
+Werkzeug==3.1.3

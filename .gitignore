@@ -1,0 +1,15 @@
+.idea/
+__pycache__/
+*.pyc
+
+data/
+results_globalrepair_v3/
+results_standard_baselines/
+results_unified_baselines/
+
+*.pt
+*.pth
+*.ckpt
+
+.DS_Store
+Thumbs.db
